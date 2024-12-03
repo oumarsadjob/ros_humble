@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 devel/
 logs/
 build/
@@ -49,3 +50,66 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+=======
+# Ignore les répertoires de compilation et d'installation
+build/
+install/
+log/
+
+# Ignore les fichiers générés par CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Ignore les fichiers de configuration de l'éditeur
+.vscode/
+.idea/
+
+# Ignore les fichiers temporaires de l'éditeur (ex: Vim, Emacs)
+*~
+*.swp
+*.swo
+*.bak
+
+# Ignore les fichiers de log générés par ROS
+*.log
+*.bak
+
+# Ignore les fichiers et répertoires liés aux tests
+test/
+
+# Ignore les fichiers générés par ROS 2 spécifiques aux messages
+*.msg
+*.srv
+*.action
+
+# Ignore les répertoires de cache et autres fichiers liés à ROS 2
+__pycache__/
+*.pyc
+
+# Ignore les fichiers de configuration de robot (ex: paramétrage)
+*.yaml
+*.xml
+
+# Ignore les fichiers Docker et d'autres outils de conteneurisation
+.docker/
+docker-compose.yml
+
+# Ignore les fichiers de dépendances et de gestion des packages
+*.deb
+*.tar.gz
+*.zip
+
+# Ignore les fichiers d'artefacts de compilation (logs et archives)
+*.dSYM/
+*.log
+
+# Ignore les environnements virtuels Python
+env/
+venv/
+
+# Ignore les fichiers cachés de Git (si besoin)
+.git/
+>>>>>>> aa8bd2e (Add turtlebot3_simulation files)
